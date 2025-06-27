@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container" id="print-area">
+            <h1 class="top-heading">शुद्ध जैनम्</h1>
+            <div class="inner-rect">
+                <img src="images/logo-removebg-preview.png" alt="logo">
+            </div>
+            <div class="head-rect">
+                <div class="head-rect-info">
+                    <div class="logo"><img src="images/logo.jpeg" alt="logo"></div>
+                    <div class="info">
+                        <ul>
+                            <li class="gst"><strong>GSTIN-23BUVPJ1116N1ZD</strong></li>
+                            <li class="company-name">Suddha Jainam Foods</li>
+                            <li class="industry">SHRI VIDYASAGAR INDUSTRIES</li>
+                            <li class="address">WARD NO.8, REST HOUSE ROAD, KOTMA (M.P.)</li>
+                        </ul></div>
+                        <div class="contact">
+                            <ul>
+                                <li class="phone"><img src="images/Premium_Vector___Phone_call_icon_isolated_on_white_background_Telephone_symbol_Vector_illustration-removebg-preview.png" alt="phone">7999971337</li>
+                                <li class="phone" ><img src="images/Premium_Vector___Phone_call_icon_isolated_on_white_background_Telephone_symbol_Vector_illustration-removebg-preview.png" alt="">9752994772</li>
+                                <li class="phone"><img src="images/Premium_Vector___Phone_call_icon_isolated_on_white_background_Telephone_symbol_Vector_illustration-removebg-preview.png" alt="">9109020204</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="firstbox">
+                    <div class="left">
+                    <form class="up">
+                        <label for="billno">Bill No:</label>
+                        <input type="text" maxlength="3" name="billno" id="billno">
+                    </form>
+                    <form  class="down">
+                        <label for="date">Date:</label>
+                        <input type="text" name="date" id="date">
+                    </form>
+                    </div>
+                    <div class="rightbox">
+                        <h2>To:</h2>
+                        <form class="name">
+                            <label for="name">NAME:</label>
+                            <input type="text" name="name" id="name">
+                        </form>
+                        <form class="mobno">
+                            <label for="mobno">MOB. NO:.</label>
+                            <input type="text" name="mobno" id="mobno">
+                        </form>
+                    </div>
+                </div>
+                <div class="middle-table">
+                <table class="content-table">
+                    <tr>
+                    <th class="Sno">S.No</th>
+                    <th class="particular">Particulars</th>
+                    <th class="qty">Qty</th>
+                    <th class="rate">Rate /- (in Rs.)</th>
+                    <th class="amount">Amount</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="Sno"></td>
+                        <td><input type="text" class="particular"></td>
+                        <td><input type="text" class="qty"></td>
+                        <td><input type="text" class="rate"></td>
+                        <td><input type="text" class="amount"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="Sno"></td>
+                        <td><input type="text" class="particular"></td>
+                        <td><input type="text" class="qty"></td>
+                        <td><input type="text" class="rate"></td>
+                        <td><input type="text" class="amount"></td>
+                    </tr>
+
+                </table>
+<button onclick="addNewRow()">Add</button>
+                </div>
+                
+                <div class="last-rect">
+                    <div class="rect-left">
+                        <form class="up">
+                            <label for="gstin">CUSTOMER GSTIN:</label>
+                            <input type="text" name="gstin" id="gstin">
+                        </form>
+                        <form class="down">
+                            <label for="balance-note">Balance Note:</label>
+                            <input type="text" name="balance-note" id="">
+                        </form>
+                    </div>
+                    <div class="rect-right">
+                        <table class="total">
+                            <tr class="first">
+                                <th class="total">TOTAL</th>
+                                <td class="input"><input type="text"></td>
+                            </tr>
+                            <tr class="second">
+                                <th class="cgst">CGST %</th>
+                                <td class="input"><input type="text"></td>
+                            </tr>
+                            <tr class="third">
+                                <th class="sgst">SGST  %</th>
+                                <td class="input"><input type="text"></td>
+                            </tr>
+                            <tr class="grand total">
+                                <th class="grand-total">GRAND TOTAL:</th>
+                                <td class="grand-total"><input type="text"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                </div>
+                <hr class="last-line">
+                <footer>
+                    <p>Thank you for your business!</p>
+                    <div class="social-media">
+                        <div class="insta">
+                            <p class="head">Follow Us </p>
+                            <div class="id">
+                            <img src="images/instagram.png" alt="">
+                            <p>suddha_jainam</p>
+                            </div>
+                        </div>
+                        <div class="email">
+                            <p class="head">Email Support</p>
+                            <p class="value">suddhajainam@gmail.com</p>
+                        </div>
+                        <div class="website">
+                            <p class="head">WEBSITE</p>
+                            <p class="value">www.suddhajainam.com</p>
+                        </div>
+                    </div>
+                </footer>
+                <div class="last">
+                <h4>© 2025 शुद्ध जैनम् | Pure and Premium Spices</h4>
+            </div>
+            </div>
+
+        </div>
+        <button onclick="printBill()">Print Bill</button>
+    </body>
+    <script src="index.js"></script>
+</html>
